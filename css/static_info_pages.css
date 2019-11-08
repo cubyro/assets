@@ -1,0 +1,59 @@
+.list.list--decimal {
+    list-style-type: decimal
+}
+
+.list.list--lower-latin {
+    list-style-type: lower-latin
+}
+
+.list.list--upper-latin {
+    list-style-type: upper-latin
+}
+
+.page_static_body p {
+    font-family: helvetica-normal, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 8px
+}
+
+html.win .page_static_body p {
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400
+}
+
+.page_static_body h2 {
+    font-size: 26px;
+    margin-bottom: 15px
+}
+
+.page_static_body h3 {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    font-size: 18px
+}
+
+.page_static_body a {
+    color: #ff8000
+}
+
+.page_static_body a:hover {
+    text-decoration: underline
+}
+
+.page_static_body>.list--decimal {
+    margin-left: 23px
+}
+
+.page_static_body .list--lower-latin, .page_static_body .list--bullet  {
+    margin-left: 22px
+}
+
+.page_static_body .list--upper-latin {
+    margin-left: 25px
+}
+
+.page_static_body .italic {
+    margin: 2px 0px 20px -3px
+}

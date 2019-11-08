@@ -1,0 +1,94 @@
+.prep_content {
+	font-size: 15px;
+}
+.recipe_content h2 {
+	font-size: 20px;
+}
+.recipe_content a {
+	color: #ff8000
+}
+/* .recipe_content .prep_content ul li::before, .dexcontent .recipe_content ul li::before { */
+/* 	margin-left: -0.3em; */
+/*     padding-right: 0.3em; */
+/*     text-align: right; */
+/*     content:'-' */
+/* } */
+
+/* .ing_wrap p { */
+/* 	margin-top: 8px; */
+/* } */
+.ing_wrap ul {
+	margin-top: 5px;
+}
+.ing_wrap ul li{
+	padding-left: 1.65em !important;
+}
+
+.ing_wrap ul li::before {
+	content: '';
+	position: absolute; 
+    left: 2px;
+    top: 5px;
+    height: 12px;
+    width: 12px;
+    box-shadow: 0px 0px 0px 1px #e5e5e5;
+}
+/* .recipe_content ul li.iactive { */
+/* 	text-decoration: line-through; */
+/* } */
+.ing_wrap ul li.iactive::before {
+    background-image: url(/assets/img/sprites.png);
+    background-position: 1px -2288px;
+    background-repeat: no-repeat;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    -webkit-background-size: initial;
+    background-size: initial;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3 / 2),
+(min-device-pixel-ratio: 1.5) {
+    .ing_wrap ul li.iactive::before {
+        background-image: url(/assets/img/sprites_retina.png);
+        background-position: 1px -2282px;
+        background-repeat: no-repeat;
+        -moz-background-size: 67px 6464px;
+        -o-background-size: 67px 6464px;
+        -webkit-background-size: 67px 6464px;
+        background-size: 67px 6464px
+    }
+}
+
+.recipe_content ul li, .recipe_content li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: .3em;
+    margin-bottom: 3px;
+    position:relative;
+}
+.ing_wrap ul li {
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.recipe_content blockquote:not(.signature) {
+    border-left: 4px solid #ff8000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 16px;
+    font-family: helvetica-normal, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+}
+.cook--page-card .recipe_content .prep_content img {
+	display:block;
+	max-width: 98%;
+	border-radius: 6px;
+	max-height: 380px
+	
+}

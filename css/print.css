@@ -1,0 +1,88 @@
+.toprint {
+	display:none;
+}
+@media print {
+	header.header,
+	.nav__menu,
+	.hot__menu,
+	.timeline-right-block,
+	.cook__viewer,
+	.usermini--profile,
+	.description__stamp,
+	.description__controls,
+	.cook__views-count,
+	.cook__sharing,
+	.ent-comments,
+	footer.footer,
+	.usersignature
+	{
+		display:none;
+	}
+	
+	.cook.cook--normal-card .description__title {
+		margin: 0 !important;
+	}
+	
+	.cook.cook--page-card .description__title, .cook.cook--page-card .description__title>a, h1.h2 {
+		font-size: 28px;
+	}
+	
+	.recipe_content:after {
+		border-top: 1px solid #D8D8D8;
+		content: 'www.cuby.ro';
+		display: block;
+		font-size: 15px;
+		margin-top:10px;
+		padding-top:10px;		
+		width:100%;
+	}
+	.recipe_content {
+		color: #000 !important;
+		margin-top: 15px !important;
+	}
+	.recipe_content h4 {
+		font-size: 18px;
+		color: #000 !important;
+	}
+	
+	.prep_content {
+		padding-top: 0 !important;
+	}
+	
+	.cook.cook--normal-card.cook--vertical .viewer, .cook.cook--normal-card.cook--vertical .cook__vd {
+		max-width:100%;
+		margin:0;
+	}
+	
+	.page-container {
+		padding-top: 10px !important;
+		padding:10px;
+	}
+	.page__body {
+		margin:0 !important;
+	}
+	
+	.cook__description, .object-media__body {
+		padding: 0 !important;
+	}
+	
+	.toprint {
+		display:initial !important;
+	}
+	
+	.noprint, .gadbox {
+		display:none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.usermini--profile {
+		float:none;
+		height:0px;
+		width: 0px;
+		margin: 0px;
+	}
+	.description__title {
+		margin:0;	
+	}
+}

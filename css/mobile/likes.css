@@ -1,0 +1,79 @@
+.page__body {
+    margin-top: 78px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.nav__menu {
+    position: fixed;
+    top: 69px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.95;
+    z-index: 400
+}
+
+.nav__menu.-detached {
+    position: static
+}
+
+.nav__menu ul.inline--container {
+    justify-content: flex-start;
+    align-items: center
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav__menu__inner {
+        width: 645px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .page__body {
+        margin-top: 0
+    }
+    .nav__menu {
+        position: relative;
+        top: auto
+    }
+    .nav__menu__inner {
+        border-top: none;
+        width: 100%;
+        padding: 0
+    }
+    .nav__menu__inner>nav>ul {
+        overflow-y: scroll
+    }
+}
+
+.heading h1 {
+    color: #000000;
+    font-size: 30px
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        position: relative;
+        z-index: 1;
+        padding-bottom: 12px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .heading {
+        padding: 0 5px
+    }
+}
+
+.timeline-controls__sort .dropdown__content {
+    width: 150px
+}
+
+.coubs-list__inner {
+    min-height: 100px
+}
+
+.my-likes__all-channels {
+    margin-right: 10px
+}

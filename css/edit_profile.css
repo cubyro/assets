@@ -1,0 +1,654 @@
+.input-counter {
+    position: relative
+}
+
+.input-counter .input-field {
+    padding-right: 50px
+}
+
+.input-counter>span {
+    pointer-events: none;
+    font-size: 14px
+}
+
+.input-counter>span.-limit-reached {
+    color: #ff0000
+}
+
+.input-counter .input-field+span {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.textarea-rsz-x {
+	resize: vertical !important
+}
+.input-counter .story-form__coub-form__input__headline+span {
+    top: 27px
+}
+
+.input-counter .-big-height+span {
+    top: 22px
+}
+
+.edit-account__nav {
+    padding: 7px 32px 0px 0px
+}
+
+.edit-account__nav .image,
+.edit-account__nav i {
+    margin-right: 7px
+}
+
+.edit-account__nav .image {
+    display: inline-block;
+    width: 30px;
+    height: 30px
+}
+
+.edit-account__nav span {
+    width: 80%;
+    padding: 0px 0px 2px 2px;
+    margin-top: 1px
+}
+
+.edit-account__nav .list__item {
+    padding: 3px 17px 4px 0px;
+    font-size: 18px;
+    margin-bottom: 13px;
+    cursor: pointer
+}
+
+.edit-account__nav .list__item.active {
+    font-family: helvetica-bold, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 800;
+    cursor: default
+}
+
+html.win .edit-account__nav .list__item.active {
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: #ff8000
+}
+
+.edit-account__nav .list__item:not(.active):hover,
+.edit-account__nav .list__item:not(.active):hover:after {
+    color: #ff8000
+}
+
+.edit-account__nav .list__item:after {
+    font-size: 16px;
+    font-family: web-symbols-reg;
+    font-weight: 400;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 15px;
+    content: '>';
+    color: rgba(0, 0, 0, 0.35);
+    width: 11px;
+    height: 0;
+    line-height: 0.1
+}
+html.win .edit-account__nav .list__item.active:after {
+	color: #ff8000
+}
+
+.edit-account__nav .list__item.notify i {
+    height: 30px;
+    width: 30px;  
+    background-image: url(/assets/img/sprites.png);
+    background-position: 0 -3684px;
+    background-repeat: no-repeat;
+}
+
+.edit-account__nav .list__item.contests i {
+    height: 30px;
+    width: 30px;  
+    background-image: url(/assets/img/sprites.png);
+    background-position: 0 -1536px;
+    background-repeat: no-repeat;
+}
+
+
+
+.edit-account__nav .list__item.accset i {
+    height: 30px;
+    width: 30px;
+    background-image: url(/assets/img/sprites.png);
+    background-position: 0 0;
+    background-repeat: no-repeat
+}
+.edit-account__nav .list__item.friends i {
+	height: 30px;
+    width: 30px;
+    background-image: url(/assets/img/sprites.png);
+    background-position: 0 -2351px;
+    background-repeat: no-repeat;
+}
+.edit-account__nav .list__item.favs i {
+	height: 30px;
+    width: 30px;
+    background-image: url(/assets/img/sprites.png);
+    background-position: 0 -1098px;
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3 / 2),
+(min-device-pixel-ratio: 1.5) {
+    .edit-account__nav .list__item.accset i {
+        background-image: url(/assets/sprites_retina.png);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+}
+
+.edit-account>.-col-two-thirds {
+    padding: 25px 38px;
+    margin-bottom: 100px
+}
+.edit-account>.-col-seventies, .edit-account>.-col-seventies-half{
+ 	padding: 25px 25px;
+}
+
+.edit-account>.-col-two-thirds .submit-settings, .edit-account>.-col-seventies .submit-settings {
+    margin-top: 30px
+}
+
+@media only screen and (min-width: 1024px) {
+    .edit-account>.-col-two-thirds {
+        min-height: 500px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .edit-account>.-col-two-thirds {
+        min-height: 150px;
+        padding: 15px;
+        background-color: #f7f7f7;
+        box-shadow: none;
+        border-radius: 0px
+    }
+    .edit-account>.-col-two-thirds .loader__overlay {
+        background-color: transparent
+    }
+}
+
+.edit-account>.-col-one-third {
+    min-height: 1px
+}
+
+.gender-pick:before,
+.gender-pick:after {
+    content: '';
+    display: table
+}
+
+.gender-pick:after {
+    clear: both
+}
+
+.gender-pick.error {
+    box-shadow: 0px 0px 0px 3px #ff0000
+}
+
+.gender-pick .sb-join__btn {
+    width: 50%
+}
+
+.gender-pick .sb {
+    font-size: 13px;
+    font-family: helveticaneuecoub-normal, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 35px;
+    float: left
+}
+
+html.win .gender-pick .sb {
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .gender-pick>.sb {
+        font-size: 10px
+    }
+}
+
+.pass-checker {
+    font-size: 10px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 2px
+}
+
+.pass-checker.-strong {
+    background-color: #15c810
+}
+
+.pass-checker.-weak {
+    background-color: #ff0000
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .pass-checker {
+        padding: 8px
+    }
+}
+
+.modal .reset-pass__notify {
+    display: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.modal .reset-pass__notify p {
+    font-size: 15px;
+    margin: 0px
+}
+
+.grid-container.settings>.grid-col.-col-one-third, .grid-container.settings .rowlabel {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 9px
+}
+
+.grid-container.settings>.grid-col.-col-two-thirds {
+    min-height: 45px;
+    margin-bottom: 18px
+}
+
+.grid-container.settings .-error-text {
+    text-align: left;
+    padding: 10px 0px 5px
+}
+
+.grid-container.settings textarea {
+    height: 95px
+}
+
+.grid-container.settings .checkbox-field {
+    font-size: 12px
+}
+
+.grid-container.settings .-with-prefix>input {
+    padding-left: 78px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .grid-container.settings>.grid-col.-col-one-third {
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+    .grid-container.settings .-with-prefix>input {
+        padding-left: 82px
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .grid-container.settings>.grid-col.-col-one-third {
+        font-size: 11px
+    }
+}
+
+.grid-container.settings label.error {
+    color: #ff0000;
+    font-size: 13px;
+    display: block
+}
+
+.grid-container.settings .settings__link-field+label.error {
+    margin: -15px 3px 15px
+}
+
+.grid-container.settings label.-error-text {
+    display: block
+}
+
+.grid-container.settings .input-field-group.error {
+    margin-bottom: 20px
+}
+
+.grid-container.settings .input-field-group.error label.-error-text {
+    position: absolute;
+    bottom: -30px
+}
+
+.settings__submit {
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .settings__submit .-right-text {
+        text-align: center
+    }
+}
+
+.reset-pass__notify {
+    margin: 0px -40px -20px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .gender-pick .sb,
+    .date-select__input,
+    .checkbox {
+        background-color: #ffffff
+    }
+}
+
+.settings__email {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 34px 0px
+}
+
+.settings__email h5 {
+    font-size: 17px;
+    margin-bottom: 1px
+}
+
+.settings__email p {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #8d8d8d;
+    margin-bottom: 17px
+}
+
+.settings__email .email__options {
+    font-size: 12px;
+    padding: 0px 4px
+}
+
+.settings__email label {
+    margin-right: 12px
+}
+
+.settings__email .checkbox {
+    margin-right: 4px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .settings__email label {
+        margin-right: 25px
+    }
+}
+
+/* .date-select .dropdown { */
+/*     margin: 0; */
+/*     padding-left: 10px; */
+/*     width: 33.333333% */
+/* } */
+
+.date-select .dropdown:first-child {
+    padding-left: 0
+}
+
+.settings__desc-counter {
+    font-size: 12px;
+    margin: 6px 3px 0px 0px
+}
+
+.settings__desc-counter.locked {
+    color: #ff0000
+}
+
+.settings__hide-owner {
+    text-indent: -31px;
+    line-height: 2.1;
+    padding-left: 32px;
+    margin: 23px 0px 4px 0px
+}
+
+@media only screen and (min-width: 1024px) {
+    .settings__hide-owner {
+        text-indent: -22px;
+        line-height: 1.5;
+        padding-left: 23px
+    }
+}
+
+.settings__auth {
+    margin-bottom: 25px
+}
+
+.settings__auth.facebook .settings__auth-button>i,
+.settings__auth.facebook .sb>i,
+.settings__auth.vkontakte .settings__auth-button>i,
+.settings__auth.vkontakte .sb>i,
+.settings__auth.vine .settings__auth-button>i,
+.settings__auth.vine .sb>i {
+    position: absolute;
+    left: 7px;
+    top: 7px
+}
+
+.settings__auth.twitter .settings__auth-button>i,
+.settings__auth.twitter .sb>i,
+.settings__auth.google .settings__auth-button>i,
+.settings__auth.google .sb>i,
+.settings__auth.firebase .settings__auth-button>i,
+.settings__auth.firebase .sb>i {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 7px
+}
+
+.settings__auth-button {
+    position: relative;
+    height: 41px;
+    line-height: 40px
+}
+
+.settings__auth-button>i {
+    display: none
+}
+
+.settings__auth-button .sb {
+    font-size: 14px;
+    text-align: left;
+    line-height: 42px;
+    width: 100%;
+    height: 41px;
+    padding-left: 50px;
+    background-color: #f7f7f7
+}
+
+.settings__auth-button .settings__auth-user {
+    font-size: 14px;
+    text-indent: 50px;
+    display: none
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .settings__auth-button {
+        background-color: #ffffff
+    }
+    .settings__auth-button>.sb {
+        background-color: #ffffff
+    }
+}
+
+.settings__auth.connected>.settings__auth-button {
+    box-shadow: 0px 0px 0px 1px #e5e5e5;
+    border-radius: 3px;
+    background-color: #f7f7f7
+}
+
+.settings__auth.connected>.settings__auth-button>i {
+    display: inline-block
+}
+
+.settings__auth.connected>.settings__auth-button .sb {
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    width: initial;
+    height: 24px;
+    padding: 0px 10px;
+    background-color: #ffffff;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 8px
+}
+
+.settings__auth.connected>.settings__auth-button .sb>i {
+    display: none
+}
+
+.settings__auth.connected>.settings__auth-button .settings__auth-user {
+    display: inline-block
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .settings__auth.connected>.settings__auth-button {
+        background-color: #ffffff
+    }
+    .settings__auth.connected>.settings__auth-button>.sb {
+        background-color: #f7f7f7
+    }
+}
+
+.settings__auth-autopost {
+    display: none;
+    margin-top: 15px
+}
+
+.settings__auth-autopost>label {
+    display: block;
+    margin-bottom: 15px
+}
+
+.settings__auth.connected .settings__auth-autopost {
+    display: block
+}
+
+.settings__link-field {
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    background-position: 6px 6px;
+    background-repeat: no-repeat
+}
+
+.settings__link-field:not(.homepage) {
+    padding-left: 45px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .settings__link-field {
+        background-position: 9px 9px
+    }
+}
+
+.settings__link-field.facebook {
+    background-image: url(/images/icons/facebook.png)
+}
+.settings__link-field.twitter {
+    background-image: url(/images/icons/twitter.png)
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+	.settings__link-field.facebook {
+    	background-image: url(/images/icons/facebook2x.png)
+	}
+	.settings__link-field.twitter {
+	    background-image: url(/images/icons/twitter2x.png)
+	}
+}
+
+.settings__link-field.tumblr {
+    background-image: url(/images/icons/tumblr.png)
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    .settings__link-field.tumblr {
+        background-image: url(/images/icons/tumblr2x.png);
+        -moz-background-size: 28px;
+        -o-background-size: 28px;
+        -webkit-background-size: 28px;
+        background-size: 28px
+    }
+}
+.settings__link-field.instagram {
+    background-image: url(/images/icons/instagram.png)
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    .settings__link-field.instagram {
+        background-image: url(/images/icons/instagram2x.png);
+        -moz-background-size: 28px;
+        -o-background-size: 28px;
+        -webkit-background-size: 28px;
+        background-size: 28px
+    }
+}
+.settings__link-field.linkedin {
+    background-image: url(/images/icons/linkedin.png)
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    .settings__link-field.linkedin {
+        background-image: url(/images/icons/linkedin2x.png);
+        -moz-background-size: 28px;
+        -o-background-size: 28px;
+        -webkit-background-size: 28px;
+        background-size: 28px
+    }
+}
+.settings__link-field.youtube {
+    background-image: url(/images/icons/youtube.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    .settings__link-field.youtube {
+        background-image: url(/images/icons/youtube2x.png);
+        -moz-background-size: 28px;
+        -o-background-size: 28px;
+        -webkit-background-size: 28px;
+        background-size: 28px
+    }
+}
+.sb.delete-channel {
+    margin: 36px 0px 0px;
+    padding: 0px
+}
+
+.password-form {
+    position: relative
+}
+
+.password-form>.input-field:first-of-type {
+    margin-bottom: 30px
+}
+
+.password-form .-string {
+    font-size: 11px;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    top: 40px
+}
+
+.password-form .-error-text {
+    margin: -5px 0px 20px
+}
+
+.password-form .change-password__new {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.password-form .pass-checker {
+    right: 11px;
+    bottom: 11px
+}

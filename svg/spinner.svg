@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 17 Copy + Oval 17 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+      <animateTransform attributeType="xml"
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 17"
+                        to="360 18 17"
+                        dur="0.6s"
+                        repeatCount="indefinite"/>
+        <g id="Autoplay-+-mute-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-302.000000, -121.000000)">
+            <g id="Oval-17-Copy-+-Oval-17-Copy-2" sketch:type="MSLayerGroup" transform="translate(305.000000, 123.000000)">
+                <g sketch:type="MSShapeGroup">
+                    <path d="M16.5820127,29.9175676 C24.1226424,29.1271658 30,22.7499481 30,15 C30,6.71572875 23.2842712,0 15,0 C6.71572875,0 0,6.71572875 0,15" id="Oval-17-Copy" stroke="#FFFCFC" stroke-width="4" stroke-linecap="round"></path>
+                    <!-- <circle id="Oval-17-Copy-2" fill="#FFFFFF" cx="15" cy="15" r="4"></circle>-->
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
